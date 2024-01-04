@@ -1,0 +1,16 @@
+{
+  "name": "pw-apitest-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "workingWithAPI-chrome": "npx playwright test workingWithAPI.spec.ts --project=chromium" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.40.1",
+    "@types/node": "^20.10.4"
+  }
+}
